@@ -7,7 +7,7 @@ This project provides an R-based pipeline to generate **violin plots** and **gri
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 violin-plot-generator/
 ├── data/ # (Optional) Place your input CSV files here
 ├── output/
