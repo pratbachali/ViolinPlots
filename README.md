@@ -9,14 +9,16 @@ This project provides an R-based pipeline to generate **violin plots** and **gri
 
 ## Project Structure
 violin-plot-generator/
-├── data/ # (Optional) Place your input CSV files here
+├── data/
+│   └── example_data.csv         # <- Sample data file (optional)
 ├── output/
-│ ├── plots_individual/ # Automatically generated violin plots
-│ └── plots_grid/ # Grid layout plots by group
+│   ├── plots_individual/        # <- Output folder for individual plots (auto-created)
+│   └── plots_grid/              # <- Output folder for grouped plots (auto-created)
 ├── scripts/
-│ └── violin_plot_generator.R # Main analysis script
-├── run_violin_plot.R # Runner script with dynamic input configuration
+│   └── violin_plot_generator.R  # <- Your main R script
+├── run_violin_plot.R            # <- Simple wrapper script to load data and run main script
 ├── .gitignore
-├── README.md # This documentation file
+├── README.md
 └── LICENSE (optional)
+
 
